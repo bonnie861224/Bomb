@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -31,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             n.setText(num + "-" + max);
             min = num;
         } else {
-            n.setText(num + "答對囉~");
+            n.setText(num + "bomb!!");
         }
     }
 }
